@@ -11,8 +11,15 @@ The types of commit will be of the following format:
 
 
 ## Versions Log:
+## [0.0.2] - (2024-08-24)
 
-## [0.0.1] - (2024-08-23)
+### Changed:
+- Updated the package.json file to include the start script
+- Updated the README.md file to include the setup and run instructions
+- Attempting deployment
+
+
+## [0.0.1] - (2024-08-24)
 
 ### Added:
 - Inital code to test out the socket connections

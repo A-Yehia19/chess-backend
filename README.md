@@ -19,7 +19,7 @@ npm install
 #### To run the server
 
 ```bash
-npm start
+npm run start
 ```
 
 ## Directory structure:
