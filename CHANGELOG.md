@@ -12,6 +12,13 @@ The types of commit will be of the following format:
 
 ## Versions Log:
 
+## [0.0.1] - (2024-08-23)
+
+### Added:
+- Inital code to test out the socket connections
+- Attempting deployment
+
+
 ## [0.0.0] - (2024-08-23)
 
 ### Added:
