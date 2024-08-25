@@ -11,6 +11,17 @@ The types of commit will be of the following format:
 
 
 ## Versions Log:
+
+## [0.0.3] - (2024-08-25)
+
+### Added:
+- Added enviroment variables to the project
+
+### Changed:
+- some changes to the code
+- modularized some functions
+
+
 ## [0.0.2] - (2024-08-24)
 
 ### Changed:
