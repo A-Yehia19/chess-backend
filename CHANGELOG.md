@@ -12,6 +12,13 @@ The types of commit will be of the following format:
 
 ## Versions Log:
 
+## [0.0.4] - (2024-08-25)
+
+### Changed:
+- upadate cors to allow all origins
+- update logs to show the origin and type of the request
+
+
 ## [0.0.3] - (2024-08-25)
 
 ### Added:

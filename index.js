@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: process.env.FRONTEND_HOST,
+    origin: [process.env.FRONTEND_HOST, "http://localhost:5174", "http://localhost:5173"],
     methods: ["GET", "POST"],
   },
 });
@@ -26,11 +26,11 @@ io.on("connection", (socket) => {
 
   socket.on("join_room", (data) => {
     socket.join(data);
-    sendMessage(socket, "player2 joined", data);
     console.log(`User with ID: ${socket.id} joined room: ${data}`);
   });
 
   socket.on("send_message", (data) => {
     socket.to(data.room).emit("receive_message", data);
+    console.log(`User with ID: ${socket.id} sent message: ${data.message}`);
   });
 });
