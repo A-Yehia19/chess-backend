@@ -3,7 +3,6 @@ const cors = require("cors");
 const express = require("express");
 const http = require("http");
 require('dotenv').config();
-const sendMessage = require("./utils/send_message").sendMessage;
 
 
 const app = express();
@@ -12,7 +11,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: [process.env.FRONTEND_HOST, "http://localhost:5174", "http://localhost:5173"],
+    origin: [process.env.FRONTEND_HOST, "https://www.abdullahyehia.tech", "http://localhost:5173", "http://localhost:5174"],
     methods: ["GET", "POST"],
   },
 });

@@ -12,6 +12,11 @@ The types of commit will be of the following format:
 
 ## Versions Log:
 
+## [0.0.5] - (2024-09-04)
+
+### Changed:
+- deploy using vercel
+
 ## [0.0.4] - (2024-08-25)
 
 ### Changed:
